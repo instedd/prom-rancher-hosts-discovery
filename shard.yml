@@ -1,11 +1,11 @@
-name: prom-rancher-discovery
+name: prom-rancher-hosts-discovery
 version: 0.1.0
 
 authors:
   - Juan Wajnerman <jwajnerman@manas.com.ar>
 
 targets:
-  prom-rancher-discovery:
+  prom-rancher-hosts-discovery:
     main: src/main.cr
 
 dependencies:
