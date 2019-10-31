@@ -1,0 +1,6 @@
+version: 1.0
+shards:
+  rancher:
+    github: waj/crystal-rancher
+    commit: 073b00f286624f06d529a98d7ba807f1ebce5df1
+

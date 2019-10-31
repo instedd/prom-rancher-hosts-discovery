@@ -1,0 +1,17 @@
+name: prom-rancher-discovery
+version: 0.1.0
+
+authors:
+  - Juan Wajnerman <jwajnerman@manas.com.ar>
+
+targets:
+  prom-rancher-discovery:
+    main: src/main.cr
+
+dependencies:
+  rancher:
+    github: waj/crystal-rancher
+
+crystal: 0.28.0
+
+license: MIT
