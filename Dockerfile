@@ -2,7 +2,7 @@ FROM alpine:edge AS build
 RUN apk add crystal shards alpine-sdk zlib-dev openssl-dev
 ADD . /src
 WORKDIR /src
-RUN shards build
+RUN shards build --release
 
 FROM alpine:edge
 RUN apk add --no-cache pcre libevent libgcc
